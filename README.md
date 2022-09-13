@@ -9,9 +9,11 @@ This project contains the following toplevel units:
 - `CA` [folder]: contains the Cellular-Automaton module and back-end, and exports the available classes, of which most importantly the 'CellularAutomaton' class functioning as the main interface of the model.
 
 - `GameOfLife.py` [script]: demonstrates the implementation of the Cellular-Automaton by emulating John Conway's 'Game of Life' (https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
+
 ![](https://github.com/justinsomechars/Python-CellularAutomaton/blob/main/GameOfLife_demo.gif)
 
 - `ModuloPrime.py` [script]: demonstrates the implementation of the Cellular-Automaton by another mathematical rule-set, that replicates an initial configuration along both axis indefinitely.
+
 ![](https://github.com/justinsomechars/Python-CellularAutomaton/blob/main/ModuloPrime_demo.gif)
 
 ## Usage
