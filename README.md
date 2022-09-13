@@ -23,7 +23,7 @@ As seen from the `GameOfLife.py` and `ModuloPrime.py` demonstrations, the genera
 - bind a next-state function to the `CellularAutomaton` object through the descriptor `@ca_object.NextState` accepting the cell to determine the next state of as a single argument. Neighbors of this cell are accessible through the `cell.neighbors` attribute, and the next-state function should return the next-state of the cell, instead of modifying it itself (due to required double buffering of the cell states, which happens in the back-end).
 - run the model through `ca_object.run()`!
 
-## Notes
+## Notes 
 - This repository was created for resume/portfolio purposes.
 - this module was not optimized for efficiency (yet?), and shows a simple, minimalistic implementation of a Cellular-Automaton model.
 - it was pursued to have the source code of the module acceptably documented (comments/docstrings), but might not follow the full set of PEP8 guidelines.
