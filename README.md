@@ -11,10 +11,12 @@ This project contains the following toplevel units:
 - `GameOfLife.py` [script]: demonstrates the implementation of the Cellular-Automaton by emulating John Conway's 'Game of Life' (https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
 
 ![](https://github.com/justinsomechars/Python-CellularAutomaton/blob/main/GameOfLife_demo.gif)
+*GIF demonstration of GameOfLife.py*
 
 - `ModuloPrime.py` [script]: demonstrates the implementation of the Cellular-Automaton by another mathematical rule-set, that replicates an initial configuration along both axis indefinitely.
 
 ![](https://github.com/justinsomechars/Python-CellularAutomaton/blob/main/ModuloPrime_demo.gif)
+*GIF demonstration of ModuloPrime.py*
 
 ## Usage
 As seen from the `GameOfLife.py` and `ModuloPrime.py` demonstrations, the general routine of using the Cellular-Automaton module goes as follows:
