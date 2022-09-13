@@ -23,7 +23,7 @@ This project contains the following toplevel units:
 *GIF demonstration of ModuloPrime.py*
 
 ## Usage
-As seen from the `GameOfLife.py` and `ModuloPrime.py` demonstrations, the general routine of using the Cellular-Automaton module goes as follows:
+As can be seein in the `GameOfLife.py` and `ModuloPrime.py` demonstrations, the general routine of using the Cellular-Automaton module goes as follows:
 - import the `CellularAutomaton` class from the `CA` module
 - define a dictionary with (state, float_rgb_color) key-value-pairs, to be used to define the cells
 - construct the `CellularAutomaton` object, passing along the state-colors dictionary and other optional arguments
